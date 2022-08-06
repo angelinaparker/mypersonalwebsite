@@ -3,7 +3,7 @@ import React from "react";
 
 const Footer = () => {
     return (
-      <Paper sx={{marginTop: 'calc(10% + 60px)',
+      <Paper sx={{
       width: '100%',
       position: 'fixed',
       bottom: 0,
@@ -18,9 +18,7 @@ const Footer = () => {
               my:0.5
             }}
           >
-              {/* <div>
-              <Image priority src="/Logo.svg" width={75} height={30} alt="Logo" />
-              </div> */}
+
           </Box>
   
           <Box

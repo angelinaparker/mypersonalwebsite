@@ -1,5 +1,4 @@
 import { SxProps, Theme } from "@mui/material";
-import { spacing } from "@mui/system";
 
 export const FrontPageStyles: SxProps<Theme> = {
   display: "flex",

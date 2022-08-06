@@ -1,9 +1,9 @@
 import React from "react";
-import Navbar from "../Components/Navbar/Navbar";
 import "./App.css";
-import Footer from "../Components/Navbar/Footer";
-import Content from "./LandingPageContent/Content";
 import { createTheme } from "@mui/material/styles";
+import Navbar from "./Components/Navbar/Navbar";
+import Content from "./Components/Content/Content";
+import Footer from "./Components/Navbar/Footer";
 
 const App = () => {
   return (

@@ -1,15 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import App from "./LandingPage/App";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import App from "./App";
 import { createTheme, ThemeProvider, unstable_createMuiStrictModeTheme } from '@mui/material/styles';
-import { green, purple } from '@mui/material/colors';
+import { green, pink,yellow,purple,} from '@mui/material/colors';
 
 const theme = createTheme({
   palette: {
     primary: {
-      main: purple[500],
+      main: "#ec008c",
     },
     secondary: {
       main: green[500],

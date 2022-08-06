@@ -10,7 +10,7 @@ export default function NavToolBar() {
       disableGutters>
         <MotionPhotosAutoIcon sx={{display: {xs: 'none', md: 'flex'}, mr: 1}}/>
         <Typography
-          variant="h5"
+          variant="h4"
           noWrap
           component="a"
           href="/"

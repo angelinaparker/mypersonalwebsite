@@ -4,7 +4,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 export default function CoursesAccordian() {
     return (
-<Accordion>
+        <Accordion>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2a-content"
@@ -14,7 +14,7 @@ export default function CoursesAccordian() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Computer-Aided Design (SOLIDWORKS)
+          {`Computer-Aided Design (SOLIDWORKS)`}
           </Typography>
         </AccordionDetails>
         <AccordionDetails>

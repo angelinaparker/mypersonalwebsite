@@ -1,0 +1,13 @@
+.EducationContainer {
+  display: flex;
+  border: none;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  
+}
+
+.EducationContainer {
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
