@@ -1,6 +1,6 @@
 import React from "react";
 import Paper from "@mui/material/Paper";
-import BasicCard from "../Components/BasicCard";
+import BasicCard from "../../Components/BasicCard";
 
 
 export const wordsArr = [

@@ -14,7 +14,7 @@ export default function CoursesAccordian() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Computer-Aided Design
+            Computer-Aided Design (SOLIDWORKS)
           </Typography>
         </AccordionDetails>
         <AccordionDetails>

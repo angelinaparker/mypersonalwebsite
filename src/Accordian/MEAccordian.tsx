@@ -10,14 +10,7 @@ import CoursesAccordian from "./CoursesAccordian";
 
 export default function MEAccordian() {
   return (
-    <Accordion
-      sx={{
-        display: "flex",
-        flexDirection: "column",
-        flexGrow: 1,
-        border: "red dotted",
-      }}
-    >
+    <Accordion>
       <AccordionSummary
         expandIcon={<ExpandMoreIcon />}
         aria-controls="panel1a-content"
@@ -27,13 +20,15 @@ export default function MEAccordian() {
       </AccordionSummary>
 
       <AccordionDetails>
-        <Typography>B.S.: San Diego State University</Typography>
-      </AccordionDetails>
-      <AccordionDetails>
-        <Typography>Graduation: 2023</Typography>
+        <Typography>B.S: San Diego State University </Typography>
+        <Typography>Graduation: 2023 </Typography>
       </AccordionDetails>
 
+      <AccordionDetails>
       <CoursesAccordian/> 
+      </AccordionDetails>
+      
+      
     </Accordion>
   );
 }

@@ -4,8 +4,8 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { CardActionArea, Paper } from "@mui/material";
-import { FrontPageStyles, PictureCardStyles } from "./LandingPageStyles";
-import { topTypographyStyle } from "../Components/Navbar/NavBarStyles";
+import { FrontPageStyles, PictureCardStyles } from "../LandingPageContent/LandingPageStyles";
+import { topTypographyStyle } from "../../Components/Navbar/NavBarStyles";
 
 const MyHeader = require("./flowers.jpg");
 
@@ -17,7 +17,7 @@ const PictureCard = () => {
           component="img"
           height="140"
           image={MyHeader}
-          alt="empty array :'c"
+          alt="... loading..."
         />
         <CardContent>
           <Typography

@@ -24,25 +24,33 @@ interface BasicCardProps {
 
 export default function BasicCard({ word }: BasicCardProps) {
   return (
-    <Paper elevation={24} sx={{ flexGrow: "1", ml: "auto", mr: "auto", width: "97%",}}>
-    <Card  >
-      <CardContent>
-        {/* <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-          {"Angelina"}
-        </Typography> */}
-        <Typography variant="h5" component="div" sx={{ fontFamily: "-apple-system"}}>
-          EDUCATION
-        </Typography>
-        <br></br>
-        <Box sx = {{display: "flex", flexDirection: "row", flexGrow: 1, border: "solid blue"}}> 
-        <Accordian /> </Box>
-      </CardContent>
-      <CardActions>
-        
-          < Button size="small"> <a style={{ textDecoration: 'none' }}href="https://mechanical.sdsu.edu/undergraduate/bsme"> Learn More </a> </Button>
-        
-      </CardActions>
-    </Card>
+    <Paper
+      elevation={24}
+      sx={{ flexGrow: "1", ml: "auto", mr: "auto", width: "97%", }}
+    >
+      <Card>
+        <CardContent>
+          <Typography
+            variant="h5"
+            component="div"
+            sx={{ fontFamily: "-apple-system" }}
+          >
+            EDUCATION
+          </Typography>
+          <br></br>
+          <Box
+            sx={{
+              display: "flex",
+              flexDirection: "row",
+              flexGrow: 1,
+              border: "none",
+              flexWrap: "wrap"
+            }}
+          >
+            <Accordian />
+          </Box>
+        </CardContent>
+      </Card>
     </Paper>
   );
 }

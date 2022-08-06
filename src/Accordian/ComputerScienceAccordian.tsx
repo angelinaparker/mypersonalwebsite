@@ -16,12 +16,11 @@ export default function ComputerScienceAccordian() {
           <Typography>
             Minor: San Diego State University
           </Typography>
-        </AccordionDetails>
-        <AccordionDetails>
           <Typography>
             Graduation: 2023
           </Typography>
         </AccordionDetails>
+       
       </Accordion>
     )
 }

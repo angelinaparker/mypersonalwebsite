@@ -3,9 +3,9 @@ import Navbar from "../Components/Navbar/Navbar";
 import "./App.css";
 import Footer from "../Components/Navbar/Footer";
 import Content from "./LandingPageContent/Content";
+import { createTheme } from "@mui/material/styles";
 
-const App = () => { 
-
+const App = () => {
   return (
     <>
       <Navbar />
