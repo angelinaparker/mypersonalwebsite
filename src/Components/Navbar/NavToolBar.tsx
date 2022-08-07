@@ -16,7 +16,7 @@ export default function NavToolBar() {
           href="/"
           sx={topTypographyStyle}
         >
-          SOFTWARE ENGINEER
+          ANGELINA PARKER
         </Typography>
 
         <MotionPhotosAutoIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} />

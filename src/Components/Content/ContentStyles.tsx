@@ -7,7 +7,7 @@ export const ContentContainerStyle =   {
     mb: 2,
     gap: 5,
     outline: "none",
-    
+    border:"none",
   }
 
   export const ContentCardStyling = {

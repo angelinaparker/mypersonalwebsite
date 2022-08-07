@@ -13,7 +13,7 @@ import './EducationStyles.css'
 export default function MEAccordian() {
   return (
     <div className="EducationContainerElement">
-      <Accordion sx={{maxWidth:"50%"}}>
+      <Accordion >
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
