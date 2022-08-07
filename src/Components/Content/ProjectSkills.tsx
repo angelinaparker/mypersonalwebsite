@@ -20,13 +20,13 @@ export default function Projects() {
     <Card sx={{ width: "49%"}}>
       <CardContent>
         <Typography variant="h6" component="div" fontWeight="bold">
-          TECHNOLOGIES
+          TECHNOLOGY
         </Typography>
         <br></br>
         <Typography variant="body2">
           Visual Studio Code, BASH Terminal, AWS, Node/Npm
           <br />
-          {'"a benevolent smile"'}
+         
         </Typography>
       </CardContent>
     </Card>

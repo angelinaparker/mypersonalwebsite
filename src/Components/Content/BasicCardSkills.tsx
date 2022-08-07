@@ -26,7 +26,7 @@ export default function BasicCard() {
         <Typography variant="body2">
           C/C++, Typescript, Javascript, HTML, CSS, Python, Java
           <br />
-          {'"a benevolent smile"'}
+  
         </Typography>
       </CardContent>
     </Card>
