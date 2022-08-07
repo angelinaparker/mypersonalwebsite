@@ -27,7 +27,7 @@ export default function NavToolBar() {
           href=""
           sx={BoxTypographyAdIcon}
         >
-          SOFTWARE ENGINEER
+          ANGELINA PARKER
         </Typography>
       </Toolbar>
     )
