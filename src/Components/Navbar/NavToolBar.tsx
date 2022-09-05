@@ -41,7 +41,7 @@ export default function NavToolBar() {
           display: { xs: "flex", md: "none" },
 
           fontFamily: "PlayfairDisplay",
-          fontSize: 28,
+          fontSize: 27,
           fontWeight: 800,
           letterSpacing: ".1rem",
           color: "inherit",
