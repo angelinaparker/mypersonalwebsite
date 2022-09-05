@@ -11,11 +11,13 @@ import { green, pink, yellow, purple } from "@mui/material/colors";
 
 const theme = createTheme({
   palette: {
-    
     primary: {
-      main: "#241011"
-    }
-  }
+      main: "#fc3468",
+    },
+    secondary: {
+      main: green[500],
+    },
+  },
 });
 
 const root = ReactDOM.createRoot(
@@ -24,7 +26,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
-      <App/>
+      <App />
     </ThemeProvider>
   </React.StrictMode>
 );

@@ -9,25 +9,21 @@ import {
   MenuItem,
   Button,
   Tooltip,
-  Avatar
+  Avatar,
 } from "@mui/material";
 import React from "react";
 import NavToolBar from "./NavToolBar";
 
 const pages = ["Mystery", "About", "Page3"];
-const containerStyle = {
-  outline: "none",
-  direction: "flex",
-  flexFlow: "flex-end",
-  m: 0
-};
+const containerStyle = { outline: "none", direction: "flex", flexFlow: "flex-end" }
 
 const ResponsiveAppBar = () => {
+
   return (
     <AppBar position="static" color="primary">
       <Container
         maxWidth="xl"
-        sx={{maxHeight: '15%'}}
+        sx={containerStyle}
       >
         <NavToolBar />
       </Container>
