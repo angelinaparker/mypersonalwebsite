@@ -73,13 +73,15 @@ const Content = () => {
               >
                 ANGELINA PARKER
               </Typography>
-              <Typography
-                variant="body1"
-                sx={{ fontFamily: "-apple-system", fontWeight: "bold" }}
-              >
-                Software Developer and Mechanical Engineering student at San
+
+              <Typography variant="body2">
+              Software Developer and Mechanical Engineering student at San
                 Diego State University
-              </Typography>
+      
+  
+        </Typography>
+
+             
             </CardContent>
           </CardActionArea>
         </Paper>
