@@ -7,6 +7,7 @@ import {
   CardContent,
   CardActionArea,
   CardMedia,
+  Button,
 } from "@mui/material";
 import React, { useEffect, useState } from "react";
 import BasicCard from "./BasicCardSkills";
@@ -17,12 +18,14 @@ import AppleAccordian from "./ContentCards/ExperienceCard/Apple";
 import FreelanceAccordian from "./ContentCards/ExperienceCard/Freelance";
 import { ContentCardStyling, ContentContainerStyle } from "./ContentStyles";
 import Projects from "./ProjectSkills";
+import WordleAccordion from "./WordleCard";
 
 const AMERICAN_PSYCHO = require("./Pictures/beach.gif");
 const APPLE = require("./Pictures/myapple.gif");
 const LOVE = require("./Pictures/love.gif");
 const BEARSY = require("./Pictures/bearsy.gif");
 const BKGROUND = require("./Pictures/newpink.jpg");
+const DARKESTPINK = require("./Pictures/darkestpink.jpg");
 const MEDPINK = require("./Pictures/medpink.jpg");
 const MOREPINK = require("./Pictures/morepink.jpg");
 const MOSTPINK = require("./Pictures/betterpink.jpg");
@@ -60,7 +63,7 @@ const Content = () => {
             <CardMedia
               component="img"
               height="300"
-               image={currentPicture} //enable this line to see the gifs
+              image={currentPicture} //enable this line to see the gifs
               alt="...loading..."
             />
 
@@ -75,77 +78,65 @@ const Content = () => {
               </Typography>
 
               <Typography variant="body2">
-              Software Developer and Mechanical Engineering student at San
+                Software Developer and Mechanical Engineering student at San
                 Diego State University
-      
-  
-        </Typography>
-
-             
+              </Typography>
             </CardContent>
           </CardActionArea>
         </Paper>
       </Box>
 
-      {/* <Box sx={{ border: "none", flexFlow: "column" }}>
-        <Paper elevation={24} sx={paperStyle}>
-          <Card>
-            <CardContent sx={{ display: "flex", flexDirection: "column" }}>
-              <Typography
-                variant="h5"
-                component="div"
-                sx={{ fontFamily: "-apple-system" }}
-              >
-                EDUCATION
-              </Typography>
-              
+      {/* Here is the start of my attempted button to link to Wordle */}
 
-              <MEAccordian />
-              <ComputerScienceAccordian />
-            </CardContent>
-          </Card>
+      <Box sx={ContentContainerStyle}>
+        <Paper
+          elevation={18}
+          sx={{ flexGrow: "1", ml: "auto", mr: "auto", width: "97%", }}
+        >
+          <CardMedia component="img" height="25" image={DARKESTPINK} />
+          <CardContent>
+            <Typography
+              gutterBottom
+              variant="h6"
+              component="div"
+              sx={{ fontFamily: "-apple-system", fontWeight: "bold" }}
+            >
+              PROJECTS
+            </Typography>
+
+            <WordleAccordion/>
+          </CardContent>
         </Paper>
-      </Box> */}
+      </Box>
+
+      {/* Here is the end of my attempted button to link to Wordle */}
 
       <Box sx={ContentContainerStyle}>
         <Paper
           elevation={18}
           sx={{ flexGrow: "1", ml: "auto", mr: "auto", width: "97%" }}
         >
-          
-            <CardMedia
-              component="img"
-              height="25"
-              image={MEDPINK}
-              alt="...loading..."
-            />
+          <CardMedia
+            component="img"
+            height="25"
+            image={MEDPINK}
+            alt="...loading..."
+          />
+          <CardContent>
+            <Typography
+              gutterBottom
+              variant="h6"
+              component="div"
+              sx={{ fontFamily: "-apple-system", fontWeight: "bold" }}
+            >
+              EDUCATION
+            </Typography>
 
-            <CardContent>
-              <Typography
-                gutterBottom
-                variant="h6"
-                component="div"
-                sx={{ fontFamily: "-apple-system", fontWeight: "bold" }}
-              >
-                EDUCATION
-              </Typography>
-
-              <MEAccordian />
-              <ComputerScienceAccordian />
-
-            </CardContent>
-          
+            <MEAccordian />
+            <ComputerScienceAccordian />
+          </CardContent>
         </Paper>
       </Box>
-
-
-
-
-
-
-
-
-
 
       <Box sx={ContentContainerStyle}>
         <Paper
@@ -172,41 +163,37 @@ const Content = () => {
 
               <FreelanceAccordian />
               <AppleAccordian />
-              
-
             </CardContent>
           </CardActionArea>
         </Paper>
       </Box>
-
-
-
-
-
-
-      
 
       <Box sx={ContentContainerStyle}>
         <Paper
           elevation={18}
           sx={{ flexGrow: "1", ml: "auto", mr: "auto", width: "97%" }}
         >
-          
-            <CardMedia
-              component="img"
-              height="25"
-              image={MOSTPINK}
-              alt="...loading..."
-            />
+          <CardMedia
+            component="img"
+            height="25"
+            image={MOSTPINK}
+            alt="...loading..."
+          />
 
-            <CardContent>
-
-            <Card sx={{ display: "flex", flexDirection: "row" , flexWrap: "wrap", justifyContent: "space-between", }}>
-            <BasicCard />
-            <Projects/>
+          <CardContent>
+            <Card
+              sx={{
+                display: "flex",
+                flexDirection: "row",
+                flexWrap: "wrap",
+                justifyContent: "space-between",
+              }}
+            >
+              <BasicCard />
+              <Projects />
             </Card>
 
-              {/* <Typography
+            {/* <Typography
                 gutterBottom
                 variant="h6"
                 component="div"
@@ -214,16 +201,9 @@ const Content = () => {
               >
                 SKILLS AND LANGUAGES
               </Typography> */}
-
-              
-
-            </CardContent>
-          
+          </CardContent>
         </Paper>
       </Box>
-
-
-
 
       <br></br>
       <br></br>

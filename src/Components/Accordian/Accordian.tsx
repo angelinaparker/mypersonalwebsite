@@ -6,6 +6,7 @@ import ComputerScienceAccordian from "../Content/ContentCards/EductionCard/Educa
 
 export default function SimpleAccordion() {
   return (
+    
     <div className="EducationContainer">
       <MEAccordian />
       <ComputerScienceAccordian />
