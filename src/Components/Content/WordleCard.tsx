@@ -16,7 +16,7 @@ export default function WordleAccordion() {
   return (
     <div className="EducationContainer">
       <Box sx={{ flexGrow: "1", ml: "auto", mr: "auto", width: "97%" }}>
-          <Link href="https://63177797e5cb6105e326c53e--bejewelled-hummingbird-42a440.netlify.app/">  
+          <Link href="https://bejewelled-hummingbird-42a440.netlify.app/">  
         <Button variant="contained">
           WORDLE by Angelina
         </Button>
